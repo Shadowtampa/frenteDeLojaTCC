@@ -1,0 +1,1 @@
+examine este código e me responda APENAS com "entendi" ou "nao entendi"
