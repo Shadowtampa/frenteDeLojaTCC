@@ -7,7 +7,7 @@ import GlobalStyles from './styles/global';
 import Header from './components/Header';
 import { CartProvider } from './hooks/useCart';
 
-const App = (): JSX.Element => {
+export const App = (): JSX.Element => {
   return (
     <BrowserRouter>
       <CartProvider>
@@ -19,5 +19,3 @@ const App = (): JSX.Element => {
     </BrowserRouter>
   );
 };
-
-export default App;
